@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV INFLUXDB_VERSION v1.2.0
+ENV INFLUXDB_VERSION v1.7.10
 
 # Update & install packages for fetching statsd
 RUN apt-get update && \
