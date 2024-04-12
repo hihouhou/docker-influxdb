@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV INFLUXDB_VERSION v2.7.5
+ENV INFLUXDB_VERSION v2.7.6
 
 RUN apt-get update && \
     apt install -y gnupg2 curl wget && \
