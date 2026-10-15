@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV INFLUXDB_VERSION=v3.9.13
+ENV INFLUXDB_VERSION=v3.11.7
 
 RUN apt-get update && \
     apt install -y gnupg2 curl wget && \
